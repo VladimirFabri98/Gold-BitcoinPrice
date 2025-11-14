@@ -30,7 +30,7 @@ localhost:3000/prices/v1/gold
 Historic price - Requires historic(boolean), date(YYYY-MM-DD format) and currency(String) URL variables:
 
 ```markdown
-localhost:3000/prices/v1/gold/historic/2005-12-10/USD
+localhost:3000/prices/v1/gold/true/2005-12-10/USD
 ```
 
 Both requests require special header called "x-access-token" whose values is an API key that can be obtained on https://www.goldapi.io
